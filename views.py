@@ -157,7 +157,7 @@ class BookAPIView(APIView):
         aws_url = 'https://qg9jefu6ul.execute-api.eu-west-1.amazonaws.com/default/tlg-api-gateway'
         aws_req = {
             'url': 'https://api.telegram.org/bot',
-            'token': '916498389:AAGTrR0ddJwgl07HExUM74uCm5EYh_uvdv0',
+            'token': '',
             'method': 'sendMessage',
             'body': {
                 'chat_id': chat_id,
